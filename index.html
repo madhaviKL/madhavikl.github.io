@@ -11,12 +11,12 @@
 
   <!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="Lakshmi Madhavi Kattamuri — Techno-Sales & Account Leader"/>
-	<meta property="og:image" content="images/profile_photo.jpg"/>
+	<meta property="og:image" content="images/profile_photo.png"/>
 	<meta property="og:url" content="https://madhavi.redarm.in"/>
 	<meta property="og:site_name" content="Lakshmi Madhavi Kattamuri"/>
 	<meta property="og:description" content="18+ years in IT and technology sales. IIM Kozhikode MBA, NIT Warangal engineer. Account Executive at Wipro."/>
 	<meta name="twitter:title" content="Lakshmi Madhavi Kattamuri — Techno-Sales & Account Leader" />
-	<meta name="twitter:image" content="images/profile_photo.jpg" />
+	<meta name="twitter:image" content="images/profile_photo.png" />
 	<meta name="twitter:url" content="https://madhavi.redarm.in" />
 	<meta name="twitter:card" content="summary_large_image" />
 
@@ -51,10 +51,8 @@
 		/* Duotone-friendly headshot treatment: navy tint + soft frame */
 		.profile-photo {
 			width: 100%;
-			border-radius: 4px;
-			filter: grayscale(100%) contrast(1.03);
-			border-bottom: 4px solid var(--navy);
-			box-shadow: 0 24px 60px -20px rgba(31,58,95,0.45);
+			/* transparent cut-out: shadow follows the silhouette, no rectangular frame */
+			filter: grayscale(100%) contrast(1.03) drop-shadow(0 20px 24px rgba(31,58,95,0.35));
 		}
 
 		/* Stat highlights */
@@ -228,7 +226,7 @@
 				</div>
 				<div class="row row-padded-bottom">
 					<div class="col-md-5 animate-box">
-						<img class="profile-photo" src="images/profile_photo.jpg" alt="Lakshmi Madhavi Kattamuri">
+						<img class="profile-photo" src="images/profile_photo.png" alt="Lakshmi Madhavi Kattamuri">
 					</div>
 					<div class="col-md-6 col-md-push-1 animate-box">
 						<div class="about-desc">
