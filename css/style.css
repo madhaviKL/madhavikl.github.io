@@ -34,13 +34,13 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #1F3A5F;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: #1F3A5F; }
   a:focus, a:active {
     outline: none; }
 
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #CA82F8; }
+        color: #1F3A5F; }
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background: #CA82F8;
+    background: #1F3A5F;
     color: #fff;
     border: none;
     padding: 16px; }
@@ -357,7 +357,7 @@ header {
     font-family: "Karla", Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 1em;
+    letter-spacing: 0.4em;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -898,7 +898,7 @@ header {
       position: absolute;
       top: -80px;
       left: 20px;
-      background: #FFE9E3;
+      background: #eef2f7;
       color: #000;
       padding: 20px 10px;
       font-size: 12px;
@@ -988,18 +988,18 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: #1F3A5F;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid #1F3A5F; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #d49af9 !important;
-    border-color: #d49af9 !important; }
+    background: #2c5a8c !important;
+    border-color: #2c5a8c !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #4d4d4d;
     border: 1px solid #d9d9d9; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #CA82F8;
+      background: #1F3A5F;
       color: #fff; }
 
 .btn-success {
@@ -1229,7 +1229,7 @@ header {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #CA82F8; }
+      color: #1F3A5F; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1261,7 +1261,7 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #1F3A5F; }
 
 #footer {
   padding: 8em 0;
@@ -1278,7 +1278,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: #1F3A5F; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
